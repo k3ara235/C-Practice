@@ -1,0 +1,6 @@
+# including <iostream>
+including namespace std;
+int main(){
+
+}
+

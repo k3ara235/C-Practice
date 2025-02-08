@@ -1,0 +1,27 @@
+bool isitprime(int num){
+struct prime{
+int one;
+int two = 1;
+};
+prime number;
+number.one=num;
+if(number.one >2 && number.one %2!=0){
+  for(int i =0; i<number.one; i++){
+    if(number.one%i==0){
+    return false;
+    }else{ return true;
+    }
+    }
+    }
+  if (number.one<3){
+  return false;
+  }
+
+int main(){
+cout<< "Please tell me a number, I will tell you if its prime or not"<<endl;
+cin>>primemaybe;
+isitprime(primemaybe);
+
+  
+
+
